@@ -16,7 +16,7 @@ public:
 
     }
 
-    std::string GetName() {return m_Name; }
+    std::string GetName() override {return m_Name; }
 };
 
 int main(){
