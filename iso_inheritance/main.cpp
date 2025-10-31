@@ -2,8 +2,8 @@
 #include <memory>
 
 class Vehicle{
-public:
-    virtual void run() = 0;
+    public:
+        virtual void run() = 0;
 };
 
 class Car : public Vehicle{
@@ -32,8 +32,8 @@ void run(Vehicle* v){
 }
 
 int main(){
-    Plane a;
-    run(&a);
+    Plane p;
+    run(&p);
 
     return 0;
 }
